@@ -217,6 +217,7 @@ export class GeminiProApi implements LLMApi {
     return [];
   }
   path(path: string): string {
-    return "/api/google/" + path;
+    // return "/api/google/" + path;
+    return path;
   }
 }
